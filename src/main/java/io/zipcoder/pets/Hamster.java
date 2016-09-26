@@ -5,6 +5,7 @@ package io.zipcoder.pets;
  */
 public class Hamster extends Pet {
 
+    @Override
     public String speak () {
         return "squeak";
     }
